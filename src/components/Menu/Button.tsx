@@ -1,8 +1,8 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from 'react'
+import styled from 'styled-components'
 
 const Button = (props: any) => {
-  const { children, href, rel, target } = props;
+  const { children, href, rel, target } = props
 
   return (
     <StyledButton
@@ -13,10 +13,10 @@ const Button = (props: any) => {
     >
       {children}
     </StyledButton>
-  );
-};
+  )
+}
 
-export default Button;
+export default Button
 
 const StyledButton = styled.a`
   background: #fff;
@@ -32,4 +32,4 @@ const StyledButton = styled.a`
     background: #e94e1b;
     color: #fff;
   }
-`;
+`

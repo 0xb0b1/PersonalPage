@@ -1,6 +1,6 @@
-import * as React from 'react';
-import styled from 'styled-components';
-import { motion } from 'framer-motion';
+import * as React from 'react'
+import styled from 'styled-components'
+import { motion } from 'framer-motion'
 
 const Path = (props: any) => (
   <motion.path
@@ -10,7 +10,7 @@ const Path = (props: any) => (
     strokeLinecap="round"
     {...props}
   />
-);
+)
 
 export const MenuToggle = ({ toggle }: { toggle: () => void }) => (
   <Button onClick={toggle} data-testid="MenuToggle">
@@ -37,13 +37,13 @@ export const MenuToggle = ({ toggle }: { toggle: () => void }) => (
       />
     </Svg>
   </Button>
-);
+)
 
 const Svg = styled.svg`
   path {
     stroke: ${getBackground};
   }
-`;
+`
 
 const Button = styled.button`
   outline: none;
@@ -59,4 +59,4 @@ const Button = styled.button`
   height: 50px;
   border-radius: 50%;
   background: transparent;
-`;
+`
