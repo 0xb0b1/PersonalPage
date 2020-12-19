@@ -20,4 +20,4 @@ const useTheme = ((defaultTheme = { mode: 'dark' }) => {
   }
 })
 
-export deafault useTheme
+export default useTheme
