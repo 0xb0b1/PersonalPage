@@ -2,9 +2,9 @@ import React, { useRef } from 'react'
 import { motion, useCycle } from 'framer-motion'
 import styled from 'styled-components'
 
-import { useDimensions } from '../Hooks/useDimensions'
-import { MenuToggle } from '../'
-import { Navigation as Nav } from '../Navigation'
+import { useDimensions } from '../../Hooks/useDimensions'
+import { MenuToggle } from '../Menu/MenuToggle'
+import { Navigation as Nav } from '../Navigation/Navigation'
 
 const sidebar = {
   open: (height: 1080) => ({

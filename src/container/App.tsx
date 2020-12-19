@@ -1,5 +1,5 @@
 import React from 'react';
-import Nav from '../components/Header/Header';
+import Header from '../components/Header/Header';
 import MainContent from './style';
 
 const App: React.FC = () => {

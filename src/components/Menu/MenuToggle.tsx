@@ -1,6 +1,7 @@
 import * as React from 'react'
 import styled from 'styled-components'
 import { motion } from 'framer-motion'
+import theme from 'styled-theming'
 
 const Path = (props: any) => (
   <motion.path
@@ -11,6 +12,32 @@ const Path = (props: any) => (
     {...props}
   />
 )
+
+const getBackground = theme('mode', {
+  dark: '#011627',
+})
+
+const Svg = styled.svg`
+  path {
+    stroke: ${getBackground};
+  }
+`
+
+const Button = styled.button`
+  outline: none;
+  border: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  cursor: pointer;
+  position: absolute;
+  top: 18px;
+  left: 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: transparent;
+`
 
 export const MenuToggle = ({ toggle }: { toggle: () => void }) => (
   <Button onClick={toggle} data-testid="MenuToggle">
@@ -39,24 +66,3 @@ export const MenuToggle = ({ toggle }: { toggle: () => void }) => (
   </Button>
 )
 
-const Svg = styled.svg`
-  path {
-    stroke: ${getBackground};
-  }
-`
-
-const Button = styled.button`
-  outline: none;
-  border: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  cursor: pointer;
-  position: absolute;
-  top: 18px;
-  left: 15px;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background: transparent;
-`

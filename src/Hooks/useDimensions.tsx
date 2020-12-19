@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
 
-const useDimension = (ref: any) => {
+const useDimensions = (ref: any) => {
   const dimensions = useRef({ width: 0, height: 0})
 
   useEffect(() => {
@@ -11,4 +11,4 @@ const useDimension = (ref: any) => {
   return dimensions.current
 }
 
-export default useDimension
+export default useDimensions

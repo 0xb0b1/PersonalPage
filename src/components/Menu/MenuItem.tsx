@@ -1,5 +1,6 @@
 import * as React from 'react'
 import camelCase from 'camelcase'
+import Link from 'react-router-dom'
 import styled from 'styled-components'
 import { motion } from 'framer-motion'
 
@@ -34,7 +35,7 @@ const variants = {
 }
 
 const StyledLink = styled(Link)`
-  color: ${getBackground}
+  color: #011627;
 `
 
 const Item = styled = styled(motion.li).attrs(() => ({
