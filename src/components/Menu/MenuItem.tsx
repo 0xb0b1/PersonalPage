@@ -11,7 +11,6 @@ interface IProps {
     url: string
     id?: number | string
   }
-
   toggle: () => void
 }
 
@@ -38,7 +37,7 @@ const StyledLink = styled(Link)`
   color: #011627;
 `
 
-const Item = styled = styled(motion.li).attrs(() => ({
+const Item = styled(motion.li).attrs(() => ({
   initial: 'closed',
   variants,
 }))`

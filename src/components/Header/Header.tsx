@@ -23,7 +23,7 @@ const Header = () => {
         custom={height}
         ref={containerRef}
       >
-        <Background className="menu-background" variantes={sidebar} />
+        <Background className="menu-background" variants={sidebar} />
         <Nav toggle={() => toggleOpen()} />
         <MenuToggle toggle={() => toggleOpen()} />
       </Toggler>

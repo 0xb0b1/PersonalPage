@@ -28,6 +28,7 @@ const StyledButton = styled.a`
   transition: 0.2s;
   display: inline-block;
   text-decoration: none;
+  
   &:hover {
     background: #e94e1b;
     color: #fff;
