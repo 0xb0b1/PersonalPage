@@ -1,15 +1,12 @@
 import React from 'react';
-import Nav from '../components/Nav/Nav';
-import Home from '../components/Home/Home';
+import Nav from '../components/Header/Header';
 import MainContent from './style';
 
 const App: React.FC = () => {
 
-
   return (
     <MainContent>
-      <Nav />
-      <Home />
+      <Header />
     </MainContent>
   );
 }
