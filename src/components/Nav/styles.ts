@@ -16,5 +16,12 @@ export const Logo = styled.span`
 export const ListItem = styled.ul`
   list-style-type: none;
   display: flex;
-  jusitify-content: space-between;
+
+  li {
+    display: flex;
+  }
+`
+
+export const MenuIcon = styled.div`
+  display: none;
 `
