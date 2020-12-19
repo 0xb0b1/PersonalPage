@@ -1,10 +1,39 @@
 import React, { useRef } from 'react'
+import { Link } from 'react-router-dom'
 import { motion, useCycle } from 'framer-motion'
 import styled from 'styled-components'
 
-import { useDimensions } from '../../Hooks/useDimensions'
+import Logo from '../Menu/Logo'
+
+import useDimensions from '../../Hooks/useDimensions'
 import { MenuToggle } from '../Menu/MenuToggle'
 import { Navigation as Nav } from '../Navigation/Navigation'
+
+
+const Header = () => {
+  const [isOpen, toggleOpen] = useCycle(false, true)
+  const containerRef = useRef(null);
+  const { height } = useDimensions(containerRef)
+
+  return (
+    <Head>
+      <Toggler
+        initial={false}
+        animate={isOpen ? 'open' : 'closed'}
+        custom={height}
+        ref={containerRef}
+      >
+        <Background className="menu-background" variantes={sidebar} />
+        <Nav toggle={() => toggleOpen()} />
+        <MenuToggle toggle={() => toggleOpen()} />
+      </Toggler>
+      <Link to="/" data-testid="logo">
+        <Logo />
+      </Link>
+    </Head>
+  )
+}
+
 
 const sidebar = {
   open: (height: 1080) => ({
@@ -68,29 +97,4 @@ const Head = styled.header`
     display: none;
   }
 `
-
-const Header = () => {
-  const [isOpen, toggleOpen] = useCycle(false, true)
-  const containerRef = useRef(null);
-  const { height } = useDimensions(containerRef)
-
-  return (
-    <Head>
-      <Toggler
-        initial={false}
-        animate={isOpen ? 'open' : 'closed'}
-        custom={height}
-        ref={containerRef}
-      >
-        <Background className="menu-background" variantes={sidebar} />
-        <Nav toggle={() => toggleOpen()} />
-        <MenuToggle toggle={() => toggleOpen()} />
-      </Toggler>
-      <Link to="/" data-testid="logo">
-        <Logo />
-      </Link>
-    </Head>
-  )
-}
-
 export default Header

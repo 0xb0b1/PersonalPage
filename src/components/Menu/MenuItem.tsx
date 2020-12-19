@@ -1,6 +1,6 @@
 import * as React from 'react'
 import camelCase from 'camelcase'
-import Link from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import { motion } from 'framer-motion'
 

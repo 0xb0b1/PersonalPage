@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-interface = IProps {
+interface IProps {
   children: React.ReactNode
 }
 

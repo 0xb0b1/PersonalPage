@@ -1,6 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
+import theme from 'style-theming'
 
+const fill = theme('mode', {
+  dark: '#d6deeb',
+})
 
 const Svg = styled.svg`
   fill: ${fill};
