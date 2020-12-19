@@ -5,23 +5,6 @@ import { Container, Logo, ListItem } from './styles';
 
 const Nav: React.FC = () => {
 
-  const [navbar, setNavbar] = useState(false);
-  const [navClicked, setNavClicked] = useState(false);
-
-  const handleClick = () => {
-    setNavClicked(!navClicked);
-  }
-
-  const changeNav = () => {
-    if (window.scrollY >= 100) {
-      setNavbar(true);
-    } else {
-      setNavbar(false);
-    }
-  }
-
-  window.addEventListener("scroll", changeNav);
-
   return (
     <Container>
       <Logo onClick={() => scroll.scrollToTop()}>
@@ -42,7 +25,6 @@ const Nav: React.FC = () => {
 
         <li>
           <Link
-            className="anchor"
             activeClass="active"
             to="services"
             spy={true}
@@ -55,7 +37,6 @@ const Nav: React.FC = () => {
 
         <li>
           <Link
-            className="anchor"
             activeClass="active"
             to="skills"
             spy={true}
@@ -68,7 +49,6 @@ const Nav: React.FC = () => {
 
         <li>
           <Link
-            className="anchor"
             activeClass="active"
             to="contact"
             delay={100}
@@ -78,7 +58,6 @@ const Nav: React.FC = () => {
             duration={500}
           >Contact</Link>
         </li>
-
       </ListItem>
     </Container>
   )
