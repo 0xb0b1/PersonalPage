@@ -9,7 +9,7 @@ export const Head = styled(motion.div)`
     z-index: 1;
     display: flex;
     background: #fff;
-    flex-direction: row;
+    flex-direction: column;
     padding: 1.2rem;
     align-items: center;
     box-shadow: 2px 2px 4px gray;

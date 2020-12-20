@@ -45,7 +45,7 @@ const childrenVariants = {
   },
 }
 
-const Home = () => {
+const Home: React.FC = () => {
   // State
   const [showHeadingOne, setShowHeadingOne] = useState(true)
   const [showHeadingTwo, setShowHeadingTwo] = useState(false)

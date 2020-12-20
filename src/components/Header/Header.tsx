@@ -5,7 +5,7 @@ import { animateScroll as scroll, Link } from 'react-scroll'
 import { Head } from './styles'
 
 
-const Header = () => {
+const Header: React.FC = () => {
 
   const [navbar, setNavbar] = useState(false)
   const [navClicked, setNavClicked] = useState(false)
