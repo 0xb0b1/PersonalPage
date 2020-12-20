@@ -2,19 +2,17 @@ import React, { useState } from 'react'
 import { animateScroll as scroll } from 'react-scroll'
 
 // styles
-import { Head, Logo, Navbar , StyledLink } from './styles'
+import { Head, Navbar , StyledLink , Logo } from './styles'
 
 
 const Header: React.FC = () => {
 
-  const [navClicked, setNavClicked] = useState(false)
-
-  const handleClick= () => {
-    setNavClicked(!navClicked)
-  }
-
   return (
     <Head>
+      <Logo onClick={() => scroll.scrollToTop()}>
+        &lt; Paulo-Vicente/&gt;
+      </Logo>
+
       <Navbar>
         <li>
           <StyledLink

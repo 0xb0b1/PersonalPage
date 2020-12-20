@@ -9,28 +9,17 @@ export const Head = styled(motion.nav)`
   top: 0;
   background: #fff;
   flex-direction: column;
-  align-items: left;
   width: 100%;
-  height: 6vh;
-`
-
-export const Logo = styled.span`
-  font-family: "Acme", sans-serif;
-  font-size: 1.5rem;
-  color: #55198b;
-  cursor: pointer;
-  width: 50%;
 `
 
 export const Navbar = styled.ul`
   display: flex;
   align-items: center;
-  top: 0;
-  background: rgba(255, 255, 255, 0.911);
-  left: 0;
+  text-align: center;
   opacity: 1;
   transition: all 0.5s ease;
   z-index: 1;
+  margin-left: 50vw;
 
   li {
     list-style-type: none;
@@ -42,6 +31,7 @@ export const StyledLink = styled(Link)`
   display: flex;
   margin: 0.4rem;
   cursor: pointer;
+  margin-left: 90px;
 
   &:hover {
     color: #55198b;
@@ -54,3 +44,11 @@ export const StyledLink = styled(Link)`
     background: rgba(0, 0, 0, 0.534);
   }
 `
+
+export const Logo = styled.span`
+  top: 2vh;
+  position: absolute;
+  font-size: 1.8rem;
+  color: #55198b;
+  cursor: pointer;
+`;
