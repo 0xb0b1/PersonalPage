@@ -29,6 +29,14 @@ export const Navbar = styled.ul`
   @media only screen and (max-width: 1000px) {
     margin-left: 40vw;
   }
+
+  @media only screen and (min-width: 1400px) {
+    margin-left: 60vw;
+  }
+
+  @media only screen and (max-width: 450px) {
+    font-size: 0.6rem;
+  }
 `
 
 export const StyledLink = styled(Link)`
