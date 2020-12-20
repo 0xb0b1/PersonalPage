@@ -15,6 +15,7 @@ const Header: React.FC = () => {
       <Navbar>
         <li>
           <StyledLink
+            onClick={() => scroll.scrollToTop()}
             activeClass="active"
             to="home"
             spy={true}
