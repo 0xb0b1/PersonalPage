@@ -9,7 +9,7 @@ const Header: React.FC = () => {
   return (
     <Head>
       <Logo onClick={() => scroll.scrollToTop()}>
-        &lt; dev-paulo/&gt;
+        &lt;dev-paulo/&gt;
       </Logo>
 
       <Navbar>
