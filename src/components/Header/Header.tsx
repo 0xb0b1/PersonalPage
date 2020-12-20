@@ -15,13 +15,10 @@ const Header: React.FC = () => {
 
   return (
     <Head>
-      <Logo onClick={() => scroll.scrollToTop()}>
-        &lt; Paulo-Vicente/&gt;
-      </Logo>
-
       <Navbar>
         <li>
           <StyledLink
+            onClick={() => scroll.scrollToTop()}
             activeClass="active"
             to="home"
             spy={true}

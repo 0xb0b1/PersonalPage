@@ -10,7 +10,6 @@ export const Head = styled(motion.nav)`
   background: #fff;
   flex-direction: column;
   align-items: left;
-  justify-content: space-between;
   width: 100%;
   height: 6vh;
 `
@@ -25,11 +24,13 @@ export const Logo = styled.span`
 
 export const Navbar = styled.ul`
   display: flex;
-  flex-direction: row;
+  align-items: center;
   top: 0;
-  position: fixed;
+  background: rgba(255, 255, 255, 0.911);
+  left: 0;
   opacity: 1;
   transition: all 0.5s ease;
+  z-index: 1;
 
   li {
     list-style-type: none;
@@ -38,10 +39,9 @@ export const Navbar = styled.ul`
 `
 
 export const StyledLink = styled(Link)`
-  display: block;
-  line-height: 9.1vh;
-  width: 100vw;
+  display: flex;
   margin: 0.4rem;
+  cursor: pointer;
 
   &:hover {
     color: #55198b;

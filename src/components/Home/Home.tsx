@@ -82,9 +82,6 @@ const Home = () => {
             animate={{ rotate: [0, 20, 0, 20, 0, 0, 0, 0, 0, 0] }}
             transition={{ yoyo: Infinity, duration: 1.7 }}
           >
-            <span role="img" aria-label="Hand waving">
-              👋
-            </span>
           </motion.span>{" "}
         </h1>
         {/* Animate Skill Content */}
