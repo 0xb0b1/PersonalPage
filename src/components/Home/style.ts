@@ -14,16 +14,14 @@ export const Main = styled.section`
 `;
 
 export const Container = styled(motion.div)`
-  width: 50vw;
-  height: 100%;
-  flex-direction: column;
-  display: flex;
-  padding: 1.8rem;
-  margin-top: 3rem;
+  padding-top: 5rem;
+  width: 100vw;
+  align-items: center;
   justify-content: center;
+  text-align: center;
 
   .main-content {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .skill-content {
@@ -42,13 +40,18 @@ export const Container = styled(motion.div)`
   }
 
   .hand {
-    display: inline-block;
-    margin: 0.9rem;
-    cursor: pointer;
+    font-size: 1.8rem;
   }
 
   .welcome-content {
     color: gray;
+    font-size: 0.7rem;
+  }
+
+  @media screen and (mix-width: 900px) {
+    .main-content {
+      font-size: 3rem;
+    }
   }
 `;
 
@@ -63,5 +66,9 @@ export const Svg = styled(motion.div)`
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  @media screen and (max-width: 1100px) {
+    width: 100vw;
   }
 `

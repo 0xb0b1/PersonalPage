@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { animateScroll as scroll } from 'react-scroll'
 
 // styles
-import { Head, Logo, MenuIcon , Navbar , StyledLink } from './styles'
+import { Head, Logo, Navbar , StyledLink } from './styles'
 
 
 const Header: React.FC = () => {
@@ -18,10 +18,6 @@ const Header: React.FC = () => {
       <Logo onClick={() => scroll.scrollToTop()}>
         &lt; Paulo-Vicente/&gt;
       </Logo>
-
-      <MenuIcon onClick={handleClick}>
-        <i className={navClicked ? "fas fa-times" : "fas fa-bars"}></i>
-      </MenuIcon>
 
       <Navbar>
         <li>

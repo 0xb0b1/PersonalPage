@@ -20,15 +20,16 @@ export const Logo = styled.span`
   font-size: 1.5rem;
   color: #55198b;
   cursor: pointer;
-`;
-
-export const MenuIcon = styled.div`
-  display: none;
+  width: 50%;
 `
+
 export const Navbar = styled.ul`
-  background: fff;
-  height: 9vh;
-  border-radius: 2px;
+  display: flex;
+  flex-direction: row;
+  top: 0;
+  position: fixed;
+  opacity: 1;
+  transition: all 0.5s ease;
 
   li {
     list-style-type: none;
@@ -37,24 +38,19 @@ export const Navbar = styled.ul`
 `
 
 export const StyledLink = styled(Link)`
-  display: flex;
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-  font-family: "Exo 2", sans-serif;
-
-  font-size: 1rem;
-  font-weight: 400;
+  display: block;
   line-height: 9.1vh;
-  margin: 0.8rem;
+  width: 100vw;
+  margin: 0.4rem;
 
   &:hover {
     color: #55198b;
   }
 
   &.active {
-    color: #55198b;
+    color: white;
     font-weight: 800;
-    border-bottom: 2px solid #55198b;
+    border: none;
+    background: rgba(0, 0, 0, 0.534);
   }
 `
