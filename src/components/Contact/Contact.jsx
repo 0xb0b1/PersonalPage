@@ -10,7 +10,6 @@ const Contact = () => {
       id="contact"
     >
       <h1 className="heading">Contact</h1>
-
       <div className="cards-container">
         {/* Card 1 - Email */}
         <div className="cards">
@@ -50,6 +49,15 @@ const Contact = () => {
               href="https://twitter.com/p_vcent/"
             >
               <i className="fab fa-twitter" title="twitter" id="twitter"></i>
+            </a>
+
+            {/* telegram */}
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://t.me/b_0_b_1"
+            >
+              <i className="fab fa-telegram" title="telegram" id="telegram"></i>
             </a>
 
           </div>

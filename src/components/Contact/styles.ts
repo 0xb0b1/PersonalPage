@@ -13,17 +13,6 @@ export const ContactLayout = styled.div`
   width: 100%;
   min-height: 100vh;
 
-  .profile-image {
-    margin: 1rem;
-    box-shadow: 6px 6px 10px gray;
-    width: 170px;
-    border: 1px solid black;
-    border-radius: 50%;
-    background-image: url("../../images/me.png");
-    background-size: cover;
-    height: 170px;
-  }
-
   .cards-container {
     display: flex;
     flex-direction: row;
