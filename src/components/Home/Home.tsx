@@ -94,7 +94,7 @@ const Home = () => {
                 exit="exit"
                 animate="animate"
                 initial="initial"
-              >FrontEnd Developer | ReactJS
+              >Junior FrontEnd Developer | ReactJS
               </motion.h2>
             )}
           </AnimatePresence>

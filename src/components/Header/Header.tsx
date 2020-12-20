@@ -29,13 +29,13 @@ const Header: React.FC = () => {
         <li>
           <StyledLink
             activeClass="active"
-            to="about"
+            to="Skills"
             spy={true}
             smooth={true}
             delay={100}
             offset={0}
             duration={500}
-          >About
+          >Skills
           </StyledLink>
         </li>
 
