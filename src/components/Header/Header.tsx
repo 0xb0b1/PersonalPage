@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { animateScroll as scroll } from 'react-scroll'
 
 // styles
@@ -6,7 +6,6 @@ import { Head, Navbar , StyledLink , Logo } from './styles'
 
 
 const Header: React.FC = () => {
-
   return (
     <Head>
       <Logo onClick={() => scroll.scrollToTop()}>
@@ -31,13 +30,13 @@ const Header: React.FC = () => {
         <li>
           <StyledLink
             activeClass="active"
-            to="skills"
+            to="about"
             spy={true}
             smooth={true}
             delay={100}
             offset={0}
             duration={500}
-          >Skills
+          >About
           </StyledLink>
         </li>
 

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import man from './../../images/man.svg'
 import { motion, AnimatePresence } from 'framer-motion'
-import { animateScroll as scroll } from 'react-scroll'
+
 // styles
 import { Main, Container, Svg } from './style'
 
@@ -66,7 +66,6 @@ const Home = () => {
   return (
     <Main>
       <Container
-        className="content-container"
         variants={contentVariants}
         initial="initial"
         animate="animate"
@@ -95,8 +94,7 @@ const Home = () => {
                 exit="exit"
                 animate="animate"
                 initial="initial"
-              >
-                FrontEnd Web Developer | React Developer
+              >FrontEnd Developer | ReactJS
               </motion.h2>
             )}
           </AnimatePresence>
@@ -109,8 +107,7 @@ const Home = () => {
                 exit="exit"
                 animate="animate"
                 initial="initial"
-              >
-                Open Source Contributor | Security Enthusiast
+              >CyberSecurity Enthusiast
               </motion.h2>
             )}
           </AnimatePresence>

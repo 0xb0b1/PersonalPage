@@ -19,11 +19,15 @@ export const Navbar = styled.ul`
   opacity: 1;
   transition: all 0.5s ease;
   z-index: 1;
-  margin-left: 50vw;
+  margin-left: 70vw;
 
   li {
     list-style-type: none;
     float: left;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    margin-left: 40vw;
   }
 `
 
@@ -31,7 +35,7 @@ export const StyledLink = styled(Link)`
   display: flex;
   margin: 0.4rem;
   cursor: pointer;
-  margin-left: 90px;
+  margin-left: 50px;
 
   &:hover {
     color: #55198b;
@@ -42,6 +46,10 @@ export const StyledLink = styled(Link)`
     font-weight: 800;
     border: none;
     background: rgba(0, 0, 0, 0.534);
+  }
+
+  @media only screen and (max-width: 1000px) {
+    display: block;
   }
 `
 

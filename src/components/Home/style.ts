@@ -19,6 +19,7 @@ export const Container = styled(motion.div)`
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin-left: 4vw;
 
   .main-content {
     font-size: 2rem;
@@ -48,7 +49,7 @@ export const Container = styled(motion.div)`
     font-size: 0.7rem;
   }
 
-  @media screen and (mix-width: 900px) {
+  @media screen and (max-width: 1000px) {
     .main-content {
       font-size: 3rem;
     }
@@ -58,6 +59,10 @@ export const Container = styled(motion.div)`
 export const Svg = styled(motion.div)`
   width: 100%;
   height: 60%;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   .svg-container {
     margin-top: 1.5rem;
@@ -68,12 +73,7 @@ export const Svg = styled(motion.div)`
     justify-content: center;
   }
 
-  @media screen and (mix-width: 900px) {
-    margin-top: 1rem;
-    width: 20vw;
-    height: 16rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  @media screen and (max-width: 1000px) {
+    display: none;
   }
 `;
