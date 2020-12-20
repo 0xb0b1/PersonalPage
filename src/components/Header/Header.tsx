@@ -1,39 +1,68 @@
 import React, { useState } from 'react'
-import { animateScroll as scroll, Link } from 'react-scroll'
+import { animateScroll as scroll } from 'react-scroll'
 
 // styles
-import { Head } from './styles'
+import { Head, Logo, MenuIcon , Navbar , StyledLink } from './styles'
 
 
 const Header: React.FC = () => {
 
-  const [navbar, setNavbar] = useState(false)
   const [navClicked, setNavClicked] = useState(false)
 
   const handleClick= () => {
     setNavClicked(!navClicked)
   }
 
-  const changeNav = () => {
-    if (window.scrollY >= 100) {
-      setNavbar(true)
-    } else {
-      setNavbar(false)
-    }
-  }
-
-  window.addEventListener('scroll', changeNav)
-  
   return (
     <Head>
-      <span className="logo" onClick={() => scroll.scrollToTop()}>
+      <Logo onClick={() => scroll.scrollToTop()}>
         &lt; Paulo-Vicente/&gt;
-      </span>
-      {/* Mobile Menu Icon */}
-      <div className="menu-icon" onClick={handleClick}>
+      </Logo>
+
+      <MenuIcon onClick={handleClick}>
         <i className={navClicked ? "fas fa-times" : "fas fa-bars"}></i>
-      </div>
-      {/* // */}
+      </MenuIcon>
+
+      <Navbar>
+        <li>
+          <StyledLink
+            activeClass="active"
+            to="home"
+            spy={true}
+            smooth={true}
+            delay={100}
+            offset={0}
+            duration={500}
+          >Home
+          </StyledLink>
+        </li>
+
+        <li>
+          <StyledLink
+            activeClass="active"
+            to="skills"
+            spy={true}
+            smooth={true}
+            delay={100}
+            offset={0}
+            duration={500}
+          >Skills
+          </StyledLink>
+        </li>
+
+        <li>
+          <StyledLink
+            activeClass="active"
+            to="contact"
+            delay={100}
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >Contact
+          </StyledLink>
+        </li>
+      </Navbar>
     </Head>
   )
 }
