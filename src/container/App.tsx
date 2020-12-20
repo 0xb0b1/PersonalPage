@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../components/Header/Header'
-import Footer from '../components/Footer/Footer'
+import Home from '../components/Home/Home'
 import MainContent from './style'
 
 const App: React.FC = () => {
@@ -8,7 +8,7 @@ const App: React.FC = () => {
   return (
     <MainContent>
       <Header />
-      <Footer />
+      <Home />
     </MainContent>
   );
 }
