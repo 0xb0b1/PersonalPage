@@ -1,22 +1,6 @@
 import React from 'react'
-import styled from 'styled-components'
-import Menu from '../Menu/Menu'
 
-const Foot = styled.footer`
-  padding: 0 3% 1rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-
-  @media print {
-    display: none;
-  }
-
-  @media screen and (max-width: 768px) {
-    flex-direction: column;
-    text-align: center;
-  }
-`
+import { Foot } from './styles'
 
 const Footer = () => (
   <Foot>
@@ -25,9 +9,8 @@ const Footer = () => (
       <br />
       Built with ReactJS/TypeScript/StyledComponents
     </div>
-
     <nav>
-      <Menu data-testid="footer-menu">
+      <ul data-testid="footer-menu">
         <li data-tesid="github">
           <a
           href="https://github.com/0xb0b1"
@@ -46,7 +29,9 @@ const Footer = () => (
             Twitter
           </a>
         </li>
-      </Menu>
+      </ul>
     </nav>
   </Foot>
 )
+
+export default Footer
