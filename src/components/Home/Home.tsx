@@ -3,7 +3,7 @@ import man from './../../images/man.svg'
 import { motion, AnimatePresence } from 'framer-motion'
 import { animateScroll as scroll } from 'react-scroll'
 // styles
-import { Main, Container, Svg, Button } from './style'
+import { Main, Container, Svg } from './style'
 
 const contentVariants = {
   initial: {
@@ -45,7 +45,7 @@ const childrenVariants = {
   },
 }
 
-const Home: React.FC = () => {
+const Home = () => {
   // State
   const [showHeadingOne, setShowHeadingOne] = useState(true)
   const [showHeadingTwo, setShowHeadingTwo] = useState(false)
@@ -120,9 +120,6 @@ const Home: React.FC = () => {
         </div>
         {/* // */}
 
-        <Button onClick={() => scroll.scrollToBottom()}>
-          Contact Me
-        </Button>
       </Container>
 
       <Svg
