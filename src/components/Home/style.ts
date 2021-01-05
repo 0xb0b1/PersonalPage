@@ -1,6 +1,46 @@
 import styled from 'styled-components'
 import { motion } from 'framer-motion'
 
+export const contentVariants = {
+  initial: {
+    translateY: "100vh",
+    opacity: 0,
+  },
+
+  animate: {
+    translateY: "0vh",
+    opacity: 1,
+    transition: {
+      duration: 2,
+      when: "beforeChildren",
+      // staggerChildren: 0.4,
+    },
+  },
+}
+
+export const childrenVariants = {
+  initial: {
+    opacity: 0,
+    y: 100,
+  },
+
+  animate: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.7,
+      type: "spring",
+      delay: 0.5,
+    },
+  },
+
+  exit: {
+    opacity: 0,
+    y: -200,
+    transition: { duration: 0.2 },
+  },
+}
+
 export const Main = styled.section`
   /* Home */
   font-family: "Exo 2", sans-serif;

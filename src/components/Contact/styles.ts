@@ -13,6 +13,13 @@ export const ContactLayout = styled.div`
   width: 100%;
   min-height: 100vh;
 
+  .heading {
+    margin: 2rem 0;
+    font-family: "Varela Round", sans-serif;
+    color: black;
+    font-size: 2.2rem;
+  }
+  
   .cards-container {
     display: flex;
     flex-direction: row;
@@ -152,4 +159,4 @@ export const ContactLayout = styled.div`
     user-select: none;
     transition: all 0.2s ease-in 0s;
   }
-`
+`;

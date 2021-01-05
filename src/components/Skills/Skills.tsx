@@ -1,17 +1,14 @@
 import React from "react"
 
 // styles 
-import { Section } from './styles'
+import { Section , Techs } from './styles'
 
 const Skills = () => {
   return (
-    <Section
-      data-aos="zoom-in"
-      id="skills"
-    >
+    <Section >
       <h1 className="heading">Technology I work with ?</h1>
 
-      <div className="techs">
+      <Techs className="techs">
         <li>
           <i className="fab html fa-html5"></i> <p>HTML5</p>
         </li>
@@ -22,6 +19,10 @@ const Skills = () => {
         <li>
           <i className="fab javascript fa-js"></i>
           <p>Javascript</p>
+        </li>
+        <li>
+          <i className="fab typescript fa-react"></i>
+          <p>Typescript</p>
         </li>
         <li>
           <i className="fab react fa-react"></i>
@@ -35,7 +36,7 @@ const Skills = () => {
           <i className="fab github fa-github"></i>
           <p>Github</p>
         </li>
-      </div>
+      </Techs>
     </Section>
   )
 }

@@ -10,11 +10,7 @@ const App: React.FC = () => {
 
   return (
     <MainContent>
-      <Header />
-      <Home />
-      <Skills />
-      <Contact />
-      <Footer />
+        <h1>Work in progress...</h1>
     </MainContent>
   );
 }
