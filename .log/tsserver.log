@@ -1,0 +1,197 @@
+Info 0    [14:35:45.070] Starting TS Server
+Info 1    [14:35:45.072] Version: 4.1.3
+Info 2    [14:35:45.072] Arguments: /home/b0b1/.nvm/versions/node/v14.15.1/bin/node /home/b0b1/Prog/github/PersonalPage/personal-page/node_modules/.bin/tsserver --logFile /home/b0b1/Prog/github/PersonalPage/personal-page/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/33af89fcc55ce19fc0a9c841fdc8ac41/tscancellation*
+Info 3    [14:35:45.072] Platform: linux NodeVersion: 14 CaseSensitive: true
+Info 4    [14:35:45.072] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [14:35:45.156] Search path: /home/b0b1/Prog/github/PersonalPage/personal-page/src
+Info 6    [14:35:45.163] For info: /home/b0b1/Prog/github/PersonalPage/personal-page/src/index.tsx :: Config file name: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json
+Info 7    [14:35:45.164] Opened configuration file /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json
+Info 8    [14:35:45.237] Config: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json : {
+ "rootNames": [
+  "/home/b0b1/Prog/github/PersonalPage/personal-page/src/index.tsx",
+  "/home/b0b1/Prog/github/PersonalPage/personal-page/src/react-app-env.d.ts",
+  "/home/b0b1/Prog/github/PersonalPage/personal-page/src/reportWebVitals.ts",
+  "/home/b0b1/Prog/github/PersonalPage/personal-page/src/setupTests.ts",
+  "/home/b0b1/Prog/github/PersonalPage/personal-page/src/components/Contact/Contact.jsx",
+  "/home/b0b1/Prog/github/PersonalPage/personal-page/src/components/Contact/styles.ts",
+  "/home/b0b1/Prog/github/PersonalPage/personal-page/src/components/Footer/Footer.tsx",
+  "/home/b0b1/Prog/github/PersonalPage/personal-page/src/components/Footer/styles.ts",
+  "/home/b0b1/Prog/github/PersonalPage/personal-page/src/components/Header/Header.tsx",
+  "/home/b0b1/Prog/github/PersonalPage/personal-page/src/components/Header/styles.ts",
+  "/home/b0b1/Prog/github/PersonalPage/personal-page/src/components/Home/Home.tsx",
+  "/home/b0b1/Prog/github/PersonalPage/personal-page/src/components/Home/style.ts",
+  "/home/b0b1/Prog/github/PersonalPage/personal-page/src/components/Skills/Skills.tsx",
+  "/home/b0b1/Prog/github/PersonalPage/personal-page/src/components/Skills/styles.ts",
+  "/home/b0b1/Prog/github/PersonalPage/personal-page/src/container/App.test.tsx",
+  "/home/b0b1/Prog/github/PersonalPage/personal-page/src/container/App.tsx",
+  "/home/b0b1/Prog/github/PersonalPage/personal-page/src/container/style.ts"
+ ],
+ "options": {
+  "target": 1,
+  "lib": [
+   "lib.dom.d.ts",
+   "lib.dom.iterable.d.ts",
+   "lib.esnext.d.ts"
+  ],
+  "allowJs": true,
+  "skipLibCheck": true,
+  "esModuleInterop": true,
+  "allowSyntheticDefaultImports": true,
+  "strict": true,
+  "forceConsistentCasingInFileNames": true,
+  "noFallthroughCasesInSwitch": true,
+  "module": 99,
+  "moduleResolution": 2,
+  "resolveJsonModule": true,
+  "isolatedModules": true,
+  "noEmit": true,
+  "jsx": 4,
+  "configFilePath": "/home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json"
+ }
+}
+Info 9    [14:35:46.625] Starting updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json
+Info 10   [14:36:39.336] Finishing updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json Version: 1 structureChanged: true Elapsed: 52709.81936300546ms
+Info 11   [14:36:39.350] Project '/home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json' (Configured)
+Info 12   [14:36:39.350] 	Files (335)
+
+Info 13   [14:36:39.350] -----------------------------------------------
+Info 14   [14:36:39.396] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 15   [14:36:39.703] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true Elapsed: 306.9855320006609ms
+Info 16   [14:36:39.705] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 17   [14:36:39.708] 	Files (3)
+
+Info 18   [14:36:39.709] -----------------------------------------------
+Info 19   [14:37:00.289] Search path: /home/b0b1/Prog/github/PersonalPage/personal-page/src/container
+Info 20   [14:37:00.291] For info: /home/b0b1/Prog/github/PersonalPage/personal-page/src/container/style.ts :: Config file name: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json
+Info 21   [14:37:58.316] Search path: /home/b0b1/Prog/github/PersonalPage/personal-page/src/components/Home
+Info 22   [14:37:58.317] For info: /home/b0b1/Prog/github/PersonalPage/personal-page/src/components/Home/Home.tsx :: Config file name: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json
+Info 23   [14:39:16.395] Starting updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json
+Info 24   [14:39:16.577] Finishing updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json Version: 2 structureChanged: false Elapsed: 180.7527879998088ms
+Info 25   [14:39:16.577] Different program with same set of files:: structureIsReused:: 2
+Info 26   [14:39:17.615] Starting updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json
+Info 27   [14:39:17.668] Finishing updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json Version: 3 structureChanged: false Elapsed: 53.16790699958801ms
+Info 28   [14:39:17.668] Different program with same set of files:: structureIsReused:: 2
+Info 29   [14:39:17.671] Starting updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json
+Info 30   [14:39:17.731] Finishing updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json Version: 4 structureChanged: false Elapsed: 60.33253400027752ms
+Info 31   [14:39:17.731] Different program with same set of files:: structureIsReused:: 2
+Info 32   [14:39:18.328] getCompletionData: Get current token: 0.020030997693538666
+Info 33   [14:39:18.328] getCompletionData: Is inside comment: 0.05484499782323837
+Info 34   [14:39:18.328] getCompletionData: Get previous token 1: 0.03525499999523163
+Info 35   [14:39:18.328] getCompletionData: Get previous token 2: 0.029399998486042023
+Info 36   [14:39:18.329] getCompletionsAtPosition: isCompletionListBlocker: 0.28644199669361115
+Info 37   [14:39:18.330] getCompletionData: Semantic work: 0.8427850008010864
+Info 38   [14:39:18.981] getCompletionData: Get current token: 0.014619000256061554
+Info 39   [14:39:18.981] getCompletionData: Is inside comment: 0.05901700258255005
+Info 40   [14:39:18.982] getCompletionData: Get previous token 1: 0.056846000254154205
+Info 41   [14:39:18.982] getCompletionData: Get previous token 2: 0.05507200211286545
+Info 42   [14:39:18.982] getCompletionsAtPosition: isCompletionListBlocker: 0.007013998925685883
+Info 43   [14:39:18.982] getCompletionData: Semantic work: 0.13209400326013565
+Info 44   [14:39:18.982] getCompletionData: Get current token: 0.020956002175807953
+Info 45   [14:39:18.983] getCompletionData: Is inside comment: 0.06972700357437134
+Info 46   [14:39:18.983] getCompletionData: Get previous token 1: 0.05242200195789337
+Info 47   [14:39:18.983] getCompletionData: Get previous token 2: 0.03882399946451187
+Info 48   [14:39:18.983] getCompletionsAtPosition: isCompletionListBlocker: 0.006304003298282623
+Info 49   [14:39:18.983] getCompletionData: Semantic work: 0.10648999363183975
+Info 50   [14:39:18.984] Starting updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json
+Info 51   [14:39:19.022] Finishing updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json Version: 5 structureChanged: false Elapsed: 38.38584300130606ms
+Info 52   [14:39:19.022] Different program with same set of files:: structureIsReused:: 2
+Info 53   [14:39:19.706] Starting updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json
+Info 54   [14:39:19.728] Finishing updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json Version: 6 structureChanged: false Elapsed: 21.864177003502846ms
+Info 55   [14:39:19.728] Different program with same set of files:: structureIsReused:: 2
+Info 56   [14:39:19.729] Starting updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json
+Info 57   [14:39:19.760] Finishing updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json Version: 7 structureChanged: false Elapsed: 30.861801005899906ms
+Info 58   [14:39:19.760] Different program with same set of files:: structureIsReused:: 2
+Info 59   [14:39:20.694] Starting updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json
+Info 60   [14:39:20.719] Finishing updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json Version: 8 structureChanged: false Elapsed: 25.291824996471405ms
+Info 61   [14:39:20.719] Different program with same set of files:: structureIsReused:: 2
+Info 62   [14:39:22.966] Starting updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json
+Info 63   [14:39:22.996] Finishing updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json Version: 9 structureChanged: false Elapsed: 29.620348997414112ms
+Info 64   [14:39:22.996] Different program with same set of files:: structureIsReused:: 2
+Info 65   [14:39:22.997] Starting updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json
+Info 66   [14:39:23.036] Finishing updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json Version: 10 structureChanged: false Elapsed: 38.22743900120258ms
+Info 67   [14:39:23.036] Different program with same set of files:: structureIsReused:: 2
+Info 68   [14:39:23.669] Starting updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json
+Info 69   [14:39:23.695] Finishing updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json Version: 11 structureChanged: false Elapsed: 24.722547002136707ms
+Info 70   [14:39:23.696] Different program with same set of files:: structureIsReused:: 2
+Info 71   [14:39:24.215] getCompletionData: Get current token: 0.02818799763917923
+Info 72   [14:39:24.215] getCompletionData: Is inside comment: 0.10790099948644638
+Info 73   [14:39:24.215] getCompletionData: Get previous token 1: 0.07423000037670135
+Info 74   [14:39:24.215] getCompletionData: Get previous token 2: 0.07475899904966354
+Info 75   [14:39:24.215] getCompletionsAtPosition: isCompletionListBlocker: 0.1548919975757599
+Info 76   [14:39:24.216] getCompletionData: Semantic work: 0.355833001434803
+Info 77   [14:39:24.223] getCompletionData: Get current token: 0.0331449955701828
+Info 78   [14:39:24.223] getCompletionData: Is inside comment: 0.09583200514316559
+Info 79   [14:39:24.223] getCompletionData: Get previous token 1: 0.08107499778270721
+Info 80   [14:39:24.223] getCompletionData: Get previous token 2: 0.07819999754428864
+Info 81   [14:39:24.224] getCompletionsAtPosition: isCompletionListBlocker: 0.01342099905014038
+Info 82   [14:39:24.224] getCompletionData: Semantic work: 0.292494997382164
+Info 83   [14:39:24.224] getCompletionData: Get current token: 0.02645999938249588
+Info 84   [14:39:24.225] getCompletionData: Is inside comment: 0.08512100577354431
+Info 85   [14:39:24.225] getCompletionData: Get previous token 1: 0.06650499999523163
+Info 86   [14:39:24.225] getCompletionData: Get previous token 2: 0.06344499439001083
+Info 87   [14:39:24.225] getCompletionsAtPosition: isCompletionListBlocker: 0.010067000985145569
+Info 88   [14:39:24.225] getCompletionData: Semantic work: 0.24455399811267853
+Info 89   [14:39:24.227] Starting updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json
+Info 90   [14:39:24.254] Finishing updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json Version: 12 structureChanged: false Elapsed: 26.271080993115902ms
+Info 91   [14:39:24.254] Different program with same set of files:: structureIsReused:: 2
+Info 92   [14:39:25.103] Starting updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json
+Info 93   [14:39:25.190] Finishing updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json Version: 13 structureChanged: false Elapsed: 85.69541600346565ms
+Info 94   [14:39:25.190] Different program with same set of files:: structureIsReused:: 2
+Info 95   [14:39:25.946] Starting updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json
+Info 96   [14:39:25.986] Finishing updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json Version: 14 structureChanged: false Elapsed: 39.74882500618696ms
+Info 97   [14:39:25.986] Different program with same set of files:: structureIsReused:: 2
+Info 98   [14:39:30.953] Starting updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json
+Info 99   [14:39:31.033] Finishing updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json Version: 15 structureChanged: false Elapsed: 79.12583500146866ms
+Info 100  [14:39:31.033] Different program with same set of files:: structureIsReused:: 2
+Info 101  [14:39:34.027] Format host information updated
+Info 102  [14:39:34.304] Starting updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json
+Info 103  [14:39:34.338] Finishing updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json Version: 16 structureChanged: false Elapsed: 34.236530996859074ms
+Info 104  [14:39:34.338] Different program with same set of files:: structureIsReused:: 2
+Info 105  [14:39:37.967] Search path: /home/b0b1/Prog/github/PersonalPage/personal-page/src/components/Home
+Info 106  [14:39:37.967] For info: /home/b0b1/Prog/github/PersonalPage/personal-page/src/components/Home/style.ts :: Config file name: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json
+Info 107  [14:39:40.667] Starting updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json
+Info 108  [14:39:40.778] Finishing updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json Version: 17 structureChanged: false Elapsed: 110.3368060067296ms
+Info 109  [14:39:40.778] Different program with same set of files:: structureIsReused:: 2
+Info 110  [14:39:40.786] Starting updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json
+Info 111  [14:39:40.820] Finishing updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json Version: 18 structureChanged: false Elapsed: 33.474815994501114ms
+Info 112  [14:39:40.820] Different program with same set of files:: structureIsReused:: 2
+Info 113  [14:39:41.945] Starting updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json
+Info 114  [14:39:41.975] Finishing updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json Version: 19 structureChanged: false Elapsed: 29.509639002382755ms
+Info 115  [14:39:41.975] Different program with same set of files:: structureIsReused:: 2
+Info 116  [14:39:46.229] Starting updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json
+Info 117  [14:39:46.263] Finishing updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json Version: 20 structureChanged: false Elapsed: 33.74905899912119ms
+Info 118  [14:39:46.264] Different program with same set of files:: structureIsReused:: 2
+Info 119  [14:39:49.469] Starting updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json
+Info 120  [14:39:49.523] Finishing updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json Version: 21 structureChanged: false Elapsed: 53.199002005159855ms
+Info 121  [14:39:49.523] Different program with same set of files:: structureIsReused:: 2
+Info 122  [14:39:49.546] Starting updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json
+Info 123  [14:39:49.607] Finishing updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json Version: 22 structureChanged: false Elapsed: 60.14931899309158ms
+Info 124  [14:39:49.607] Different program with same set of files:: structureIsReused:: 2
+Info 125  [14:39:49.886] Starting updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json
+Info 126  [14:39:49.916] Finishing updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json Version: 23 structureChanged: false Elapsed: 30.189081005752087ms
+Info 127  [14:39:49.917] Different program with same set of files:: structureIsReused:: 2
+Info 128  [14:39:50.255] Starting updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json
+Info 129  [14:39:50.300] Finishing updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json Version: 24 structureChanged: false Elapsed: 44.70500700175762ms
+Info 130  [14:39:50.300] Different program with same set of files:: structureIsReused:: 2
+Info 131  [14:39:50.584] Starting updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json
+Info 132  [14:39:50.600] Finishing updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json Version: 25 structureChanged: false Elapsed: 15.30901499837637ms
+Info 133  [14:39:50.600] Different program with same set of files:: structureIsReused:: 2
+Info 134  [14:39:52.050] Starting updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json
+Info 135  [14:39:52.074] Finishing updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json Version: 26 structureChanged: false Elapsed: 23.335991002619267ms
+Info 136  [14:39:52.074] Different program with same set of files:: structureIsReused:: 2
+Info 137  [14:39:52.315] Starting updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json
+Info 138  [14:39:52.329] Finishing updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json Version: 27 structureChanged: false Elapsed: 13.73386300355196ms
+Info 139  [14:39:52.329] Different program with same set of files:: structureIsReused:: 2
+Info 140  [14:39:53.478] Format host information updated
+Info 141  [14:39:54.639] Starting updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json
+Info 142  [14:39:54.660] Finishing updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json Version: 28 structureChanged: false Elapsed: 20.208177998661995ms
+Info 143  [14:39:54.660] Different program with same set of files:: structureIsReused:: 2
+Info 144  [14:40:05.224] Search path: /home/b0b1/Prog/github/PersonalPage/personal-page/src/components/Home
+Info 145  [14:40:05.226] For info: /home/b0b1/Prog/github/PersonalPage/personal-page/src/components/Home/style.ts :: Config file name: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json
+Info 146  [14:40:25.718] Starting updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json
+Info 147  [14:40:25.753] Finishing updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json Version: 29 structureChanged: false Elapsed: 35.23811499774456ms
+Info 148  [14:40:25.753] Different program with same set of files:: structureIsReused:: 2
+Info 149  [14:40:27.660] Format host information updated
+Info 150  [14:40:27.957] Starting updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json
+Info 151  [14:40:28.082] Finishing updateGraphWorker: Project: /home/b0b1/Prog/github/PersonalPage/personal-page/tsconfig.json Version: 30 structureChanged: false Elapsed: 124.8235709965229ms
+Info 152  [14:40:28.082] Different program with same set of files:: structureIsReused:: 2
